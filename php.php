@@ -1,3 +1,4 @@
+<?php
 # Retorna o elemento que se repete por um número ímpar de vezes na sequência.
 
 # Complexidade do método: O(n^2)
@@ -28,3 +29,5 @@ $n = sizeof($arr);
  
 // Chamada da função
 echo(getRepeticoesImpar($arr, $n));
+
+?>
