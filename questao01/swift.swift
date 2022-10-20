@@ -1,7 +1,7 @@
 // Swift - O(log n)
 func binarySearch(key: Int, imin: Int, imax: Int) {
 
-    //Encontra os valores no meio do index - O (n)
+    //Encontra os valores no meio do index - O (1)
     var midIndex : Double = round(Double((imin + imax) / 2))
     var midNumber = numberList[Int(midIndex)]
 
@@ -17,4 +17,4 @@ func binarySearch(key: Int, imin: Int, imax: Int) {
         let results = "value \(key) found.."
     }
 }
-// O(n) + O (log n) = O (log n)
+// O(1) + O (log n) = O (log n)
