@@ -14,4 +14,4 @@ function Challenge(input) {
     }
     let whoAmI = "I don't know"; 
   }
-  // O(n) + O(n) = 2*O(n) -> Restira as constantes -> O(n) 
+  // O(n) + O(n) = 2*O(n) -> Retira as constantes -> O(n) 
